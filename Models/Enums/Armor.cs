@@ -1,8 +1,15 @@
 namespace SoE.Models.Enums
 {
-	/// The armors
-	public enum Armor // 0 - 99
+	/// <summary>
+	/// The armors the boy can possess
+	/// </summary>
+	/// <remarks>40 bits (all used)</remarks>
+	/// <remarks>Max value by the game: 99</remarks>
+	public enum Armor : ulong 
 	{
+		/* Byte 1 */
+
+		// Vests
 		GrassVest,
 		ShellPlate,
 		DinoSkin,
@@ -11,15 +18,22 @@ namespace SoE.Models.Enums
 		CenturionCape,
 		SilverMail,
 		GoldPlatedVest,
+
+		/* Byte 2 */
+
 		ShiningArmor,
 		MagnaMail,
 		TitaniumVest,
 		VirtualVest,
 
+		// Hats
 		GrassHat,
 		ShellHat,
 		DinoHelmet,
 		BronzeHelmet,
+
+		/* Byte 3 */
+
 		ObsidianHelmet,
 		CenturionHelmet,
 		TitansCrown,
@@ -29,6 +43,9 @@ namespace SoE.Models.Enums
 		OldReliable,
 		BrainStorm,
 
+		/* Byte 4 */
+
+		// Bracelets
 		VineBracelet,
 		MammothGuard,
 		ClawGuard,
@@ -37,11 +54,15 @@ namespace SoE.Models.Enums
 		GlovesOfRa,
 		IronBracer,
 		MagiciansRing,
+
+		/* Byte 5 */
+
 		DragonsClaw,
 		CyberGlove,
 		ProtectorRing,
 		VirtualGlove,
 
+		// Collars
 		LeatherCollar,
 		SpikyCollar,
 		DefenderCollar,

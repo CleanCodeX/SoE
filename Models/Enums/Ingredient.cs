@@ -1,7 +1,10 @@
 namespace SoE.Models.Enums
 {
-	/// The alchemy ingredients
-	public enum Ingredient // Max Value = 99
+	/// <summary>
+	/// The available ingredients alchemies can have
+	/// </summary>
+	/// <remarks>Max value by the game: 99</remarks>
+	public enum Ingredient 
 	{
 		Wax,
 		Water,
@@ -11,6 +14,7 @@ namespace SoE.Models.Enums
 		Mushroom,
 		MudPepper,
 		Meteorite,
+
 		Limestone,
 		Iron,
 		GunPowder,
@@ -19,6 +23,7 @@ namespace SoE.Models.Enums
 		Ethanol,
 		Dryice,
 		Crystal,
+
 		Clay,
 		Brimstone,
 		Bone,

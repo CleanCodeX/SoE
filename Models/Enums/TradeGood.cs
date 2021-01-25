@@ -1,7 +1,12 @@
+using System;
+
 namespace SoE.Models.Enums
 {
+	/// <summary>
 	/// The market trading goods
-	public enum TradeGood
+	/// </summary>
+	/// <remarks>16 bits (13 bits used)</remarks>
+	public enum TradeGood : UInt16
 	{
 		AnnihilationAmulet,
 		Beads,
@@ -11,10 +16,13 @@ namespace SoE.Models.Enums
 		JeweledScarab,
 		LimestoneTablet,
 		Perfume,
+
 		Rice,
 		Spice,
 		SouvenirSpoon,
 		Tapestry,
 		TicketForExhibition
+
+		// bits 0x20 - 0x80 Unknown
 	}
 }

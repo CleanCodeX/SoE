@@ -1,5 +1,8 @@
 namespace SoE.Models.Enums
 {
+	/// <summary>
+	/// The dog's available appearances
+	/// </summary>
 	public enum DogAppearance : byte
 	{
 		Prehistorica = 2, // Wolf, Prehistorica

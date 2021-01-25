@@ -1,6 +1,8 @@
 namespace SoE.Models.Enums
 {
-	/// The heros
+	/// <summary>
+	/// The available characters
+	/// </summary>
 	public enum Character
 	{
 		Boy,

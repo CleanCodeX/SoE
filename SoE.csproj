@@ -4,7 +4,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <Nullable>enable</Nullable>
     <LangVersion>preview</LangVersion>
-    <Version>0.5.0-a1</Version>
+    <Version>0.5.0-a2</Version>
     <PackageTags>SoE, Secret of Evermore, Super Nintendo, Super Famicon</PackageTags>
     <Authors>XETH (Sven Krauter)</Authors>
     <Description>Collection of SoE's enums</Description>    
@@ -50,6 +50,10 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IO\IO.csproj" />
   </ItemGroup>
 
   <ItemGroup>

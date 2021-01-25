@@ -3,7 +3,9 @@ using Res = SoE.Properties.Resources;
 
 namespace SoE.Models.Enums
 {
+	/// <summary>
 	/// The game's regions
+	/// </summary>
 	public enum GameRegion
 	{
 		[DisplayNameLocalized(nameof(Res.EnglishNtsc), typeof(Res))]

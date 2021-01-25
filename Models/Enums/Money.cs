@@ -1,6 +1,8 @@
 namespace SoE.Models.Enums
 {
-	/// The money types
+	/// <summary>
+	/// The type of moneys the boy can hold
+	/// </summary>
 	public enum Money
 	{
 		Talons,

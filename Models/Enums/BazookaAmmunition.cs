@@ -1,6 +1,9 @@
 namespace SoE.Models.Enums
 {
-	public enum BazookaAmmunition
+	/// <summary>
+	/// The bazooka ammunition the boy can have
+	/// </summary>
+	public enum BazookaAmmunition 
 	{
 		ThunderBall,
 		ParticleBomb,

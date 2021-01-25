@@ -1,6 +1,8 @@
 namespace SoE.Models.Enums
 {
-	/// The items 
+	/// <summary>
+	/// The items the boy can hold
+	/// </summary>
 	public enum Item
 	{
 		Petal, // 0 - 6
