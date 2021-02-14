@@ -9,7 +9,7 @@ namespace SoE.Models.Enums
 	/// </summary>
 	/// <remarks>48 bits (38 used)</remarks>
 	[Flags]
-	public enum Alchemy: ulong
+	public enum Alchemy: UInt64
 	{
 		None = 0x0,
 

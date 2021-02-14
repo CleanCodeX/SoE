@@ -1,3 +1,5 @@
+using System;
+
 namespace SoE.Models.Enums
 {
 	/// <summary>
@@ -5,7 +7,8 @@ namespace SoE.Models.Enums
 	/// </summary>
 	/// <remarks>40 bits (all used)</remarks>
 	/// <remarks>Max value by the game: 99</remarks>
-	public enum Armor : ulong 
+	[Flags]
+	public enum Armor : UInt64 
 	{
 		/* Byte 1 */
 

@@ -6,7 +6,7 @@ namespace SoE.Models.Enums
 	/// <summary>
 	/// The game's regions
 	/// </summary>
-	public enum GameRegion
+	public enum GameRegion : byte
 	{
 		[DisplayNameLocalized(nameof(Res.EnglishNtsc), typeof(Res))]
 		EnglishNtsc,

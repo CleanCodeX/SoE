@@ -8,7 +8,7 @@ namespace SoE.Models.Enums
 	/// </summary>
 	/// <remarks>32 bits (30 used)</remarks>
 	[Flags]
-	public enum CharmsAndRareItems : uint
+	public enum CharmsAndRareItems : UInt32
 	{
 		None = 0x0,
 
@@ -53,7 +53,8 @@ namespace SoE.Models.Enums
 
 		QuennsKey = 0x10 + Offset24, // $2264&0x10
 		EnegeryCore = 0x20 + Offset24, // $2264&0x20
-		//Unknown1 = 0x40 + Offset24, // $2264&0x40
-		//Unknown2 = 0x80 + Offset24 // $2264&0x80
+
+		Unknown1 = 0x40 + Offset24, // $2264&0x40
+		Unknown2 = 0x80 + Offset24 // $2264&0x80
 	}
 }

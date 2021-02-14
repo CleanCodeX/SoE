@@ -1,9 +1,11 @@
+using System;
+
 namespace SoE.Models.Enums
 {
 	/// <summary>
 	/// The dog's available appearances
 	/// </summary>
-	public enum DogAppearance : byte
+	public enum DogAppearance : UInt16
 	{
 		Prehistorica = 2, // Wolf, Prehistorica
 		PrehistoricaBoneChaser = 4, //  only used in the scene where the dog fetches the Bone Crusher. It is mostly identical to 02.
