@@ -9,7 +9,7 @@ namespace SoE.Models.Structs
 	/// Status values of a character buff
 	/// </summary>
 	/// <remarks>6 bytes</remarks>
-	[StructLayout(LayoutKind.Sequential, Pack = 2)]
+	[StructLayout(LayoutKind.Sequential, Pack = 2, Size = 6)]
 	public struct CharacterBuffStatus
 	{
 		public UInt16 Id; // FFFFh = none, Bit 15: 1 = most recently given, see list of IDs below

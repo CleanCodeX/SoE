@@ -5,7 +5,7 @@ using System;
 namespace SoE.Models.Enums.Unknown
 {
 	[Flags]
-	public enum Unknown16C_Offset1 : byte
+	public enum ByteBits : byte
 	{
 		Bit1 = 0x1,
 		Bit2 = 0x2,

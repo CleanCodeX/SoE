@@ -40,8 +40,8 @@ namespace SoE
 
 		#region Unknown17
 
-		public const int Unknown17A = 10;
-		public const int Unknown17B = 4;
+		public const int Unknown17A = 11;
+		public const int Unknown17B = 5;
 		public const int Unknown17C = 2;
 		public const int Unknown17D = 3;
 		public const int Unknown17E = 16;

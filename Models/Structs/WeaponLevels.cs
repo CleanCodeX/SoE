@@ -3,8 +3,12 @@ using System.Runtime.InteropServices;
 
 namespace SoE.Models.Structs
 {
+	/// <summary>
+	/// The boy's weapon levels
+	/// </summary>
+	/// <remarks>28 bytes</remarks>
 	[DebuggerDisplay("{ToString(),nq}")]
-	[StructLayout(LayoutKind.Sequential, Pack = 2)]
+	[StructLayout(LayoutKind.Sequential, Pack = 2, Size = 28)]
 	public struct WeaponLevels
 	{
 		// you can't ever fight with them

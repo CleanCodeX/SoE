@@ -11,7 +11,7 @@ namespace SoE.Models.Structs
 	/// </summary>
 	/// <remarks>26 bytes</remarks>
 	[DebuggerDisplay("{ToString(),nq}")]
-	[StructLayout(LayoutKind.Sequential, Pack = 2)]
+	[StructLayout(LayoutKind.Sequential, Pack = 2, Size = 26)]
 	public struct TradeGoods
 	{
 		//  (0 - 99)

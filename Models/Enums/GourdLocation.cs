@@ -2,7 +2,8 @@ using System;
 
 namespace SoE.Models.Enums
 {
-	public enum GourdSpots : UInt32
+	[Flags]
+	public enum GourdLocation : UInt32
 	{
 
 	}

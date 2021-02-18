@@ -8,7 +8,7 @@ namespace SoE.Models.Structs
 	/// </summary>
 	/// <remarks>22 bytes</remarks>
 	[DebuggerDisplay("{ToString(),nq}")]
-	[StructLayout(LayoutKind.Sequential, Pack = 2)]
+	[StructLayout(LayoutKind.Sequential, Pack = 2, Size = 22)]
 	public struct Ingredients
 	{
 		public byte Wax;
@@ -19,6 +19,7 @@ namespace SoE.Models.Structs
 		public byte Mushroom;
 		public byte MudPepper;
 		public byte Meteorite;
+
 		public byte Limestone;
 		public byte Iron;
 		public byte GunPowder;
@@ -27,6 +28,7 @@ namespace SoE.Models.Structs
 		public byte Ethanol;
 		public byte DryIce;
 		public byte Crystal;
+
 		public byte Clay;
 		public byte Brimstone;
 		public byte Bone;

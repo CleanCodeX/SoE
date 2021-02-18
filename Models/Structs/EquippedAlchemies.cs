@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using System.Runtime.InteropServices;
+using SoE.Models.Enums;
 
 namespace SoE.Models.Structs
 {
@@ -8,17 +9,17 @@ namespace SoE.Models.Structs
 	/// </summary>
 	/// <remarks>9 bytes</remarks>
 	[DebuggerDisplay("{ToString(),nq}")]
-	[StructLayout(LayoutKind.Sequential, Pack = 1)]
+	[StructLayout(LayoutKind.Sequential, Pack = 1, Size = 9)]
 	public struct EquippedAlchemies
 	{
-		public byte Spell1;
-		public byte Spell2;
-		public byte Spell3;
-		public byte Spell4;
-		public byte Spell5;
-		public byte Spell6;
-		public byte Spell7;
-		public byte Spell8;
-		public byte Spell9;
+		public EquippedAlchemy Spell9;
+		public EquippedAlchemy Spell8;
+		public EquippedAlchemy Spell7;
+		public EquippedAlchemy Spell6;
+		public EquippedAlchemy Spell5;
+		public EquippedAlchemy Spell4;
+		public EquippedAlchemy Spell3;
+		public EquippedAlchemy Spell2;
+		public EquippedAlchemy Spell1;
 	}
 }

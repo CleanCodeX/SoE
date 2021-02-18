@@ -4,10 +4,11 @@ namespace SoE.Models.Enums
 {
 	public enum LandingLocation : UInt16
 	{
-		//Unknown1 = 0,
-		//Unknown2 = 2,
-		//Unknown3 = 4,
-		//Unknown4 = 8,
-		//Unknown5 = 10
+		//Prehistoria_West = 0,
+		//Prehistoria_North = 1,
+		//Antiqua_South = 2,
+		//Antiqua_North = 3,
+		Gothica = 4,
+		//Omnitopia = 5,
 	}
 }

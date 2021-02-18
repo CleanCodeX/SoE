@@ -1,5 +1,5 @@
 ﻿using System.Runtime.InteropServices;
-using SoE.Models.Enums.Unknown;
+using IO.Extensions;
 
 namespace SoE.Models.Structs.Unknown
 {
@@ -10,9 +10,9 @@ namespace SoE.Models.Structs.Unknown
 	[StructLayout(LayoutKind.Sequential, Pack = 1, Size = Sizes.Unknown16C)] 
 	public struct Unknown16C
 	{
-		public Unknown16C_Offset1 Offset0;
+		[MarshalAs(UnmanagedType.ByValArray, SizeConst = 6)]
+		public byte[] Data;
 
-		[MarshalAs(UnmanagedType.ByValArray, SizeConst = 5)]
-		public byte[] Offset1To5;
+		public override string ToString() => "Byte[6] " + Data.Format();
 	}
 }

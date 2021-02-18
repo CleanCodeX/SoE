@@ -8,7 +8,7 @@ namespace SoE.Models.Structs
 	/// </summary>
 	/// <remarks>40 bytes</remarks>
 	[DebuggerDisplay("{ToString(),nq}")]
-	[StructLayout(LayoutKind.Sequential, Pack = 8)]
+	[StructLayout(LayoutKind.Sequential, Pack = 8, Size = 40)]
 	public struct Armors
 	{
 		// Vests (0 - 6)

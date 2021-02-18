@@ -1,4 +1,5 @@
 using System.Runtime.InteropServices;
+using IO.Extensions;
 
 // ReSharper disable InconsistentNaming
 
@@ -12,6 +13,8 @@ namespace SoE.Models.Structs.Unknown
 	public struct Unknown15
 	{
 		[MarshalAs(UnmanagedType.ByValArray, SizeConst = Sizes.Unknown15)]
-		public byte[] Offset0To23;
+		public byte[] Data;
+
+		public override string ToString() => "Byte[24] " + Data.Format();
 	}
 }

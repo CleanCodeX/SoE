@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 namespace SoE.Models.Structs
 {
 	/// <summary>
-	/// The levels the boy's alchemies have
+	/// The boy's alchemy levels
 	/// </summary>
 	/// <remarks>70 bytes</remarks>
 	[DebuggerDisplay("{ToString(),nq}")]
-	[StructLayout(LayoutKind.Sequential, Pack = 1)]
+	[StructLayout(LayoutKind.Sequential, Pack = 1, Size = 70)]
 	public struct AlchemyLevels
 	{
 		public AlchemyLevel AcidRain;

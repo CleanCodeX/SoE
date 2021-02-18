@@ -8,7 +8,7 @@ namespace SoE.Models.Structs
 	/// </summary>
 	/// <remarks>8 bytes</remarks>
 	[DebuggerDisplay("{ToString(),nq}")]
-	[StructLayout(LayoutKind.Sequential, Pack = 8)]
+	[StructLayout(LayoutKind.Sequential, Pack = 8, Size = 8)]
 	public struct Items
 	{
 		// Items

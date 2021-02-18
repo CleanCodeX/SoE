@@ -1,6 +1,5 @@
 using System.Diagnostics;
 using System.Runtime.InteropServices;
-using IO.Helpers;
 using IO.Models.Structs;
 
 namespace SoE.Models.Structs
@@ -9,7 +8,6 @@ namespace SoE.Models.Structs
 	/// The money the characters can hold
 	/// </summary>
 	/// <remarks>12 bytes, 3 bytes each (16.7M)</remarks>
-	[HasToStringOverride]
 	[DebuggerDisplay("{ToString(),nq}")]
 	[StructLayout(LayoutKind.Sequential, Pack = 1, Size = 12)]
 	public struct Moneys
