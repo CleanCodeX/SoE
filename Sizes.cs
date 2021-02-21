@@ -21,7 +21,7 @@ namespace SoE
 		#region Unknown12
 
 		public const int Unknown12A = 16;
-		public const int Unknown12B = 2;
+		public const int ScriptedEventTimer = 2;
 		public const int Unknown12C = 4;
 
 		#endregion
@@ -73,7 +73,7 @@ namespace SoE
 
 		public const int AllUnknown = Unknown4 + Unknown6 + Unknown7 + Unknown8 + Unknown9 + 
 		                              Unknown10 + Unknown11 + 
-		                              Unknown12A + Unknown12B + Unknown12C + 
+		                              Unknown12A + ScriptedEventTimer + Unknown12C + 
 		                              Unknown13 + Unknown14 + Unknown15 + 
 		                              Unknown16A + Unknown16B_GothicaFlags + Unknown16C + 
 		                              Unknown17A + Unknown17B + Unknown17C + Unknown17D + 
