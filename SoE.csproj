@@ -7,7 +7,7 @@
     <Version>0.5.0-a5</Version>
     <PackageTags>SoE, Secret of Evermore, Super Nintendo, Super Famicon</PackageTags>
 	  <Authors>S. Krauter { CleanCoderX, XETH }</Authors>
-    <Description>Collection of SoE's enums</Description>    
+    <Description>Collection of SoE's enums and structures</Description>    
     <Company>KST</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
