@@ -40,6 +40,15 @@ namespace SoE
 
 		public const int Unknown18 = 2;
 
+		#region Unknown20
+
+		public const int UnknownFireEyesState1 = 2;
+		public const int Unknown17D = 3;
+		public const int Unknown17E1 = 4;
+		public const int Unknown17E2 = 2;
+
+		#endregion Unknown20
+
 		#region Quasi unknown offsets
 
 		/* Chunk16 */
@@ -59,15 +68,10 @@ namespace SoE
 		public const int UnknownPyramidState2 = 2;
 		public const int Unknown17B = 1;
 
-		#region Unknown20
-
-		public const int UnknownFireEyesState1 = 2;
+		/* Chunk 20 */
 		private const int CurrentEquippedWeaponChunk20 = 1;
-		public const int Unknown17D = 3;
-		public const int Unknown17E1 = 4;
-		public const int Unknown17E2 = 2;
 
-		#endregion
+		#endregion Quasi unknown offsets
 
 		public const int AllUnknown = Unknown4 + Unknown6 + Unknown7 + Unknown8 + Unknown9 + 
 		                              Unknown10 + Unknown11 + 
@@ -83,6 +87,6 @@ namespace SoE
 		                              /* Chunk 19 */
 									  FlyingMachineType +
 									  /* Chunk 20 */
-		                              UnknownFireEyesState1 + CurrentEquippedWeaponChunk20 + Unknown17D + Unknown17E1 + Unknown17E2 + ;
+		                              UnknownFireEyesState1 + CurrentEquippedWeaponChunk20 + Unknown17D + Unknown17E1 + Unknown17E2;
 	}
 }
