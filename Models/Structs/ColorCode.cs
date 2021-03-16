@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using System.Runtime.InteropServices;
+using SoE.Models.Enums;
 
 namespace SoE.Models.Structs
 {

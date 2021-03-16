@@ -1,6 +1,6 @@
 using System;
 
-namespace SoE.Models.Structs
+namespace SoE.Models.Enums
 {
 	public enum Color : UInt16
 	{
