@@ -33,22 +33,8 @@ namespace SoE
 		#region Unknown16
 
 		public const int Unknown16A = 4;
-		public const int Unknown16B_GothicaFlags = 4;
+		public const int Unknown16B = 4;
 		public const int Unknown16C = 6;
-
-		#endregion
-
-		#region Unknown17
-
-		public const int Act2UnknownState1 = 1;
-		public const int Act2UnknownState2 = 1;
-		public const int UnknownPyramidState1 = 1;
-		public const int UnknownPyramidState2 = 1;
-		public const int Unknown17B = 1;
-		public const int UnknownFireEyesState1 = 2;
-		public const int Unknown17D = 3;
-		public const int Unknown17E1 = 4;
-		public const int Unknown17E2 = 2;
 
 		#endregion
 
@@ -66,10 +52,20 @@ namespace SoE
 		
 		/* Chunk 19 */
 		private const int FlyingMachineType = 1;
+		public const int Act2UnknownState1 = 1;
+		public const int Act2UnknownState2 = 1;
+		public const int TinkersStateMaybe = 1;
+		public const int UnknownPyramidState1 = 1;
+		public const int UnknownPyramidState2 = 2;
+		public const int Unknown17B = 1;
 
-		/* Chunk 20 */
+		#region Unknown20
+
+		public const int UnknownFireEyesState1 = 2;
 		private const int CurrentEquippedWeaponChunk20 = 1;
-		private const int LastLandingLocation = 1;
+		public const int Unknown17D = 3;
+		public const int Unknown17E1 = 4;
+		public const int Unknown17E2 = 2;
 
 		#endregion
 
@@ -77,9 +73,8 @@ namespace SoE
 		                              Unknown10 + Unknown11 + 
 		                              Unknown12A + ScriptedEventTimer + Unknown12C + 
 		                              Unknown13 + Unknown14 + Unknown15 + 
-		                              Unknown16A + Unknown16B_GothicaFlags + Unknown16C + 
-		                              Act2UnknownState1 + Act2UnknownState2 + UnknownPyramidState1 + UnknownPyramidState2 + Unknown17B + UnknownFireEyesState1 + Unknown17D + 
-		                              Unknown17E1 + Unknown17E2 + 
+		                              Unknown16A + Unknown16B + Unknown16C + 
+		                              Act2UnknownState1 + Act2UnknownState2 + TinkersStateMaybe + UnknownPyramidState1 + UnknownPyramidState2 + Unknown17B +
 		                              Unknown18 +
 									  /* Chunk16 */
 		                              CurrentEquippedWeaponChunk16 + EquippedAlchemies +
@@ -88,6 +83,6 @@ namespace SoE
 		                              /* Chunk 19 */
 									  FlyingMachineType +
 									  /* Chunk 20 */
-									  LastLandingLocation + CurrentEquippedWeaponChunk20;
+		                              UnknownFireEyesState1 + CurrentEquippedWeaponChunk20 + Unknown17D + Unknown17E1 + Unknown17E2 + ;
 	}
 }
