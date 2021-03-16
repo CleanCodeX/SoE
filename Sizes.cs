@@ -40,13 +40,15 @@ namespace SoE
 
 		#region Unknown17
 
-		public const int Unknown17A = 11;
-		public const int Unknown17B = 5;
-		public const int Unknown17C = 2;
+		public const int Act2UnknownState1 = 1;
+		public const int Act2UnknownState2 = 1;
+		public const int UnknownPyramidState1 = 1;
+		public const int UnknownPyramidState2 = 1;
+		public const int Unknown17B = 1;
+		public const int UnknownFireEyesState1 = 2;
 		public const int Unknown17D = 3;
-		public const int Unknown17E = 16;
-		public const int Unknown17F = 14;
-		public const int Unknown17G = 4;
+		public const int Unknown17E1 = 4;
+		public const int Unknown17E2 = 2;
 
 		#endregion
 
@@ -76,8 +78,8 @@ namespace SoE
 		                              Unknown12A + ScriptedEventTimer + Unknown12C + 
 		                              Unknown13 + Unknown14 + Unknown15 + 
 		                              Unknown16A + Unknown16B_GothicaFlags + Unknown16C + 
-		                              Unknown17A + Unknown17B + Unknown17C + Unknown17D + 
-		                              Unknown17E + Unknown17F + Unknown17G + 
+		                              Act2UnknownState1 + Act2UnknownState2 + UnknownPyramidState1 + UnknownPyramidState2 + Unknown17B + UnknownFireEyesState1 + Unknown17D + 
+		                              Unknown17E1 + Unknown17E2 + 
 		                              Unknown18 +
 									  /* Chunk16 */
 		                              CurrentEquippedWeaponChunk16 + EquippedAlchemies +
