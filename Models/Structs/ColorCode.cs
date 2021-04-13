@@ -18,6 +18,6 @@ namespace SoE.Models.Structs
 		public Color Code2;
 		public Color Code3;
 
-		public override string ToString() => $"{Code1}-{Code2}-{Code3}";
+		public override string ToString() => $"{Code1}-{Code2}-{Code3} | {(ushort)Code1}-{(ushort)Code2}-{(ushort)Code3}";
 	}
 }
