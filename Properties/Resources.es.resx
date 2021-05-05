@@ -26,4 +26,19 @@
 	<data name="Spanish" xml:space="preserve">
 		<value>Española</value>
 	</data>
+	<data name="StatusNoTerminalCodeSet" xml:space="preserve">
+		<value>Sin código establecido</value>
+	</data>
+	<data name="StatusInvalidTerminalCode" xml:space="preserve">
+		<value>Codigo invalido</value>
+	</data>
+	<data name="Blue" xml:space="preserve">
+		<value>Azul</value>
+	</data>
+	<data name="Green" xml:space="preserve">
+		<value>Verde</value>
+	</data>
+	<data name="Red" xml:space="preserve">
+		<value>Rojo</value>
+	</data>
 </root>

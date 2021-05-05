@@ -61,6 +61,15 @@ namespace SoE.Properties {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Blue ähnelt.
+        /// </summary>
+        public static string Blue {
+            get {
+                return ResourceManager.GetString("Blue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die English (NTSC) ähnelt.
         /// </summary>
         public static string EnglishNtsc {
@@ -97,11 +106,47 @@ namespace SoE.Properties {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Green ähnelt.
+        /// </summary>
+        public static string Green {
+            get {
+                return ResourceManager.GetString("Green", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Red ähnelt.
+        /// </summary>
+        public static string Red {
+            get {
+                return ResourceManager.GetString("Red", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Spanish ähnelt.
         /// </summary>
         public static string Spanish {
             get {
                 return ResourceManager.GetString("Spanish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Invalid code ähnelt.
+        /// </summary>
+        public static string StatusInvalidTerminalCode {
+            get {
+                return ResourceManager.GetString("StatusInvalidTerminalCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die No code set ähnelt.
+        /// </summary>
+        public static string StatusNoTerminalCodeSet {
+            get {
+                return ResourceManager.GetString("StatusNoTerminalCodeSet", resourceCulture);
             }
         }
     }

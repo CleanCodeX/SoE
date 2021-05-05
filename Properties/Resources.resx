@@ -132,4 +132,19 @@
   <data name="EnglishNtsc" xml:space="preserve">
     <value>English (NTSC)</value>
   </data>
+  <data name="StatusNoTerminalCodeSet" xml:space="preserve">
+    <value>No code set</value>
+  </data>
+  <data name="StatusInvalidTerminalCode" xml:space="preserve">
+    <value>Invalid code</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>Blue</value>
+  </data>
 </root>
